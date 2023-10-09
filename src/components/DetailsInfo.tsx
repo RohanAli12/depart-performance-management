@@ -63,7 +63,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="title"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="title"
                     value={form.title}
                     onChange={handleChange}
@@ -80,7 +80,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="changetype"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="changetype"
                     list='changetype-option'
                     value={form.changetype}
@@ -103,7 +103,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="projectName"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="projectName"
                     value={form.projectName}
                     onChange={handleChange}
@@ -119,7 +119,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="businessOwner"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="businessOwner"
                     value={form.businessOwner}
                     onChange={handleChange}
@@ -135,7 +135,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="applicationOwner"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="applicationOwner"
                     value={form.applicationOwner}
                     onChange={handleChange}
@@ -151,7 +151,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="developmentResource"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="developmentResource"
                     value={form.developmentResource}
                     onChange={handleChange}
@@ -167,7 +167,7 @@ const DetailsInfo = () => {
                 <input
                     type="datetime-local"
                     id="expectedStartDate"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="expectedStartDate"
                     value={form.expectedStartDate}
                     onChange={handleChange}
@@ -183,7 +183,7 @@ const DetailsInfo = () => {
                 <input
                     type="datetime-local"
                     id="expectedEndDate"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="expectedEndDate"
                     value={form.expectedEndDate}
                     onChange={handleChange}
@@ -198,7 +198,7 @@ const DetailsInfo = () => {
                 <input
                     type="datetime-local"
                     id="actualStartDate"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="actualStartDate"
                     value={form.actualStartDate}
                     onChange={handleChange}
@@ -213,7 +213,7 @@ const DetailsInfo = () => {
                 <input
                     type="datetime-local"
                     id="goOnLiveDate"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="goOnLiveDate"
                     value={form.goOnLiveDate}
                     onChange={handleChange}
@@ -228,7 +228,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="projectStage"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="projectStage"
                     value={form.projectStage}
                     onChange={handleChange}
@@ -258,7 +258,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="priority"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="priority"
                     value={form.priority}
                     onChange={handleChange}
@@ -273,7 +273,7 @@ const DetailsInfo = () => {
                 <input
                     type="datetime-local"
                     id="developmentEndDate"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="developmentEndDate"
                     value={form.developmentEndDate}
                     onChange={handleChange}
@@ -288,7 +288,7 @@ const DetailsInfo = () => {
                 <input
                     type="datetime-local"
                     id="uatDate"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="uatDate"
                     value={form.uatDate}
                     onChange={handleChange}
@@ -303,7 +303,7 @@ const DetailsInfo = () => {
                 <input
                     type="datetime-local"
                     id="dateAndTime"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="dateAndTime"
                     value={form.dateAndTime}
                     onChange={handleChange}
@@ -318,7 +318,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="projectStatus"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="projectStatus"
                     value={form.projectStatus}
                     onChange={handleChange}
@@ -339,7 +339,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="pendingAt"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="pendingAt"
                     list='pendingAt-option'
                     value={form.pendingAt}
@@ -362,7 +362,7 @@ const DetailsInfo = () => {
                 <input
                     type="datetime-local"
                     id="uatEndDate"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="uatEndDate"
                     value={form.uatEndDate}
                     onChange={handleChange}
@@ -374,7 +374,7 @@ const DetailsInfo = () => {
                 <input
                     type="text"
                     id="resource_name"
-                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3"
+                    className="w-[28em] border rounded-lg px-3 py-2 focus:outline-none  focus:border-[#6469ff] bg-gray-50  focus:ring-[#6469ff]  outline-none  p-3 text-black"
                     name="resource_name"
                     required
                     placeholder='Please Select from the given dropdown'
