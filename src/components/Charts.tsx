@@ -9,7 +9,7 @@ const Charts = () => {
     const [imageData2, setImageData2] = useState('');
     const [imageData3, setImageData3] = useState('');
 
-    useEffect(() => {
+    
         const fetchData = async () => {
             try {
                 const [res1, res2, res3] = await Promise.all([
@@ -37,8 +37,13 @@ const Charts = () => {
                 console.error("Error fetching data:", error);
             }
         };
-        fetchData();
-    }, []); // Empty dependency array means this effect runs once after the first render.
+
+        const datafetch = async () => {
+            await fetchData();
+        }
+
+        datafetch();
+    
     return (
         <section>
             <Wrapper>
@@ -48,10 +53,11 @@ const Charts = () => {
                             Welcome to BankIslami
                         </h1>
                         <h2 className="text-muted-foreground font-light text-sm md:text-lg text-center">
-                            Dive in and witness performance like never before
+                        Explore and experience unparalleled employee performance analytics, redefining how we measure achievements and contributions within our organization.
                         </h2>
                     </div>
-                    <div className="grid grid-cols-2 gap-7">
+                    <br/>
+                    <div className="grid grid-cols-1 lg:grid-cols-2 gap-7">
                         {
                             <>
                                 <div className="backdrop-blur-lg shadow-xl shadow-[#989A98] rounded-md  border-slate-900 h-[335px] w-[470px] flex item-center justify-center">
@@ -75,6 +81,7 @@ const Charts = () => {
                         }
                     </div>
                 </div>
+                <div className="mt-10"></div>
             </Wrapper>
         </section>
     );

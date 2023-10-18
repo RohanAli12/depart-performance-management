@@ -313,7 +313,7 @@ const ViewEdit = ({ onEditClick }: { onEditClick: number }) => {
                                     <label htmlFor="comments" className="block text-white font-medium mb-2">
                                         Comments
                                     </label>
-                                    <textarea id="comments" name="comments" rows={4} onChange={handleChange} value={form.comments} className="w-[28em] border rounded-md py-2 px-3 focus:outline-none focus:border-myprimary"></textarea>
+                                    <textarea id="comments" name="comments" rows={4} onChange={handleChange} value={form.comments} className="w-[28em] border rounded-md py-2 px-3 focus:outline-none text-black focus:border-myprimary"></textarea>
 
                                     {/* 14 */}
 

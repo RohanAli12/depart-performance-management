@@ -4,7 +4,7 @@ import Link from 'next/link'
 import React from 'react'
 import logo1 from '/public/assets/logo1.png'
 import { cn } from '@/lib/utils'
-import { LayoutDashboard,ViewIcon,FormInput } from 'lucide-react'
+import { LayoutDashboard,ViewIcon,FormInput, FileCheck2 } from 'lucide-react'
 import {usePathname} from 'next/navigation'
 
 const SidebarComp = () => {
@@ -19,6 +19,12 @@ const SidebarComp = () => {
       label:"Data Entry",
       href:"/Details",
       icon:FormInput,
+      color:"text-violet-500"
+    },
+    {
+      label:"Bulk Data Entry",
+      href:"/UploadData",
+      icon:FileCheck2,
       color:"text-violet-500"
     },
     {
